@@ -6,52 +6,23 @@ body {
     margin: 0;
     background-color: #f3f3f3;
     font-family: Arial, sans-serif;
-    
 }
-
 .container {
-    width: 100%;
-    height: 100vh; 
-    background-image: url('../images/apppreview.jpeg');
-    background-size: contain; /* 或使用 cover，根据你希望的效果 */
-    background-position: center;
-    background-repeat: no-repeat;
-    display: grid;
-    grid-template-rows: 1fr auto;
-    grid-template-columns: 1fr;
-    padding: 20px;
-    box-sizing: border-box;
+    text-align: center;
 }
-
 .logo {
     width: 200px;
     margin-bottom: 20px;
 }
-
-
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
 }
-a{
-
-}
-
 p {
     font-size: 1.2em;
     color: #666;
-    width: 300px;
 }
-
-.leftdown {
-    text-align: center;
-    position: absolute;
-    left: 17.5%;
-    top: 58%;
-    width: auto; /* Adjust as needed */
-    height: auto; /* Adjust as needed */
-    background-color: #e5f1ff; /* Example background color */
-    padding: 20px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
-    border-radius: 10px; /* Optional: add a rounded border */
+.preview{
+    margin-top: 10px;
+    width: 500px;
 }
