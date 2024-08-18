@@ -6,10 +6,17 @@ body {
     margin: 0;
     background-color: #f3f3f3;
     font-family: Arial, sans-serif;
+    
 }
 
 .container {
     text-align: center;
+    width: 100%;
+    height: 100vh; 
+    background-image: url('../images/apppreview.jpeg');
+    background-size: contain; /* 或使用 cover，根据你希望的效果 */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -17,16 +24,27 @@ body {
     margin-bottom: 20px;
 }
 
+
+
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
+    position: absolute;
+    bottom: 275px;
+    left: 320px
+    
+}
+a{
+    position: absolute;
+    bottom: 130px;
+    left: 320px
 }
 
 p {
     font-size: 1.2em;
     color: #666;
-}
-.preview{
-    margin-top: 10px;
-    width: 500px;
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+    width: 250px;
 }
