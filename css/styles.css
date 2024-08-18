@@ -10,13 +10,17 @@ body {
 }
 
 .container {
-    text-align: center;
     width: 100%;
     height: 100vh; 
     background-image: url('../images/apppreview.jpeg');
     background-size: contain; /* 或使用 cover，根据你希望的效果 */
     background-position: center;
     background-repeat: no-repeat;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -25,26 +29,29 @@ body {
 }
 
 
-
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    position: absolute;
-    bottom: 275px;
-    left: 320px
-    
 }
 a{
-    position: absolute;
-    bottom: 130px;
-    left: 320px
+
 }
 
 p {
     font-size: 1.2em;
     color: #666;
+    width: 300px;
+}
+
+.leftdown {
+    text-align: center;
     position: absolute;
-    bottom: 150px;
-    left: 300px;
-    width: 250px;
+    left: 17.5%;
+    top: 58%;
+    width: auto; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    background-color: #e5f1ff; /* Example background color */
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow */
+    border-radius: 10px; /* Optional: add a rounded border */
 }
