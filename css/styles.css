@@ -2,10 +2,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
     background-color: #f3f3f3;
     font-family: Arial, sans-serif;
+    overflow: visible;
 }
 
 .container {
@@ -44,6 +45,7 @@ p {
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    
 }
 
 .cta-link:hover {
@@ -62,3 +64,10 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
 }
+.banner {
+     display: block;
+    width: 100%;  /* This makes the image take the full width of its container */
+    height: auto;  /* Allows the height to adjust automatically */
+    object-fit: contain; 
+}
+
