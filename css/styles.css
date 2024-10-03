@@ -69,5 +69,6 @@ p {
     width: 100%;  /* This makes the image take the full width of its container */
     height: auto;  /* Allows the height to adjust automatically */
     object-fit: contain; 
+    padding-top: 500px;
 }
 
