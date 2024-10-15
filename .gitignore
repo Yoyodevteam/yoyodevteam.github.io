@@ -1,0 +1,36 @@
+# Node modules (if applicable)
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories (if applicable)
+dist/
+build/
+out/
+
+# Temporary files
+temp/
+tmp/
+
+# Environment variable files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE files (if applicable)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Miscellaneous files
+*.bak
+*.swp
